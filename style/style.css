@@ -76,7 +76,6 @@ p {
 
 @media (min-width: 768px) { 
     article {
-        width: 45%;
         padding: 1.5%;
     }
 
@@ -87,7 +86,6 @@ p {
 
 @media (min-width:1024px) {
     article {
-        width: 25%;
         padding: 1.5%;
     }
 }
