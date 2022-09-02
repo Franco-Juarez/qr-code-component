@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repositorio](https://github.com/Juarrison/qr-code-component.git)
-- Live Site URL: [Sitio Web](https://silver-raindrop-864390.netlify.app/)
+- Live Site URL: [Sitio Web](https://juarrison.github.io/qr-code-component/)
 
 ## My process
 
