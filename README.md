@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - QR Code Component
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repositorio](https://github.com/Juarrison/elements.git)
+- Solution URL: [Repositorio](https://github.com/Juarrison/qr-code-component.git)
 - Live Site URL: [Sitio Web](https://silver-raindrop-864390.netlify.app/)
 
 ## My process
