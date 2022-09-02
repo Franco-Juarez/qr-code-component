@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue:hsl(218, 44%, 22%);
+    --mainFont:'Outfit', sans-serif;
+    --pSize: 0.938em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--lightGray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article {
+    background-color: var(--white);
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.625rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    padding: 4%;
+    width: 75%;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.625rem;
+}
+
+p, h1 {
+    font-family: var(--mainFont);
+    text-align: center;
+    padding: 2% 4%;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 2% 0;
+    font-size: 1.5em;
+    color: var(--darkBlue);
+}
+
+p {
+    font-size: var(--pSize);
+    margin: 0 3% 3% 3%;
+    color: var(--grayishBlue);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    font-family: var(--mainFont);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ========================MEDIA QUERIES ============================== */
+
+@media (min-width: 768px) { 
+    article {
+        width: 45%;
+        padding: 1.5%;
+    }
+
+    h1 {
+        margin: 2% 0;
+    }
+}
+
+@media (min-width:1024px) {
+    article {
+        width: 25%;
+        padding: 1.5%;
+    }
+}
